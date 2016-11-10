@@ -32,7 +32,7 @@ public class Demo3 {
             /*
              * 创建列，行加上列就是excel表格里面的单元格
              * 返回值类型是Cell，需要接收
-             * 第一列
+             * 0代表第一列
              */
             Cell cell=row.createCell(0);
             /*
