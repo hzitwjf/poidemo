@@ -42,14 +42,15 @@ public class Demo3 {
             cell.setCellValue("林黛玉");
             //给第一列第二个单元格赋值，值是贾宝玉
             row.createCell(1).setCellValue("贾宝玉");
-            //给第一列第三个单元格赋值，值是贾宝玉
+            //给第一列第三个单元格赋值，值是薛宝钗
             row.createCell(2).setCellValue("薛宝钗");
-            //给第一列第四个单元格赋值，值是贾宝玉
+            //给第一列第四个单元格赋值，值是红楼梦
             row.createCell(3).setCellValue("红楼梦");
             //给第一列第五个单元格赋值，值是一个数字类型
             row.createCell(4).setCellValue(5);
             //给第一列第六个单元格赋值，值是一个布尔类型
             row.createCell(5).setCellValue(true);
+            //给单元格赋值，值类型可以是8大基本数据类型
             //使用文件输出流输出文件
             FileOutputStream fileOutputStream = new FileOutputStream("D:/迅雷下载/用poi制作的工作薄.xls");
             //workbook.write方法：把内容写到流里面去
